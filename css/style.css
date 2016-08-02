@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script);
 
-/* This 
-is 
+/* This
+is
 a comment! */
 
 /* CSS Syntax:
@@ -31,6 +31,18 @@ figcaption {
   text-align: right;
 }
 
+/*//// MEDIA /////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*//// SECTIONS /////*/
+
+.row {
+  margin-bottom: 20px;
+}
 /* Class selector (applied to as many elements as you like) */
 
 .milk-text { /* select elements with class="milk-text" */
